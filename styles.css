@@ -1,0 +1,146 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+a {
+  color: #4285F4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.header img {
+  width: 100px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+header nav ul {
+  list-style: none;
+  margin-left: auto;
+}
+
+header nav ul li {
+  margin-right: 10px;
+}
+
+/* Ribbon Styles */
+.ribbon {
+  background-color: #4285F4;
+  color: #fff !important;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.ribbon a {
+  color: #fff !important;
+}
+
+.ribbon h2 {
+  color: #fff !important;
+}
+
+/* Navigation Styles */
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Main Content Styles */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* About Page Styles */
+.about-page {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+body.about-page {
+  text-align: left;
+}
+
+body.about-page .container {
+  padding: 0;
+}
+
+body.about-page ul {
+  padding-left: 0;
+}
+section {
+  text-align: left;
+}
+.section-heading {
+  text-align: center;
+}
