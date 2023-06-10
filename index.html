@@ -7,12 +7,18 @@
     <link rel="stylesheet" href="style.css">
     <style>
         .profile-image {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            width: 250px;
-            height: 250px;
+            width: 100%;
+            max-width: 250px;
+            height: auto;
             border-radius: 50%;
+        }
+        
+        @media (min-width: 768px) {
+            .profile-image {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+            }
         }
     </style>
 </head>
@@ -20,7 +26,9 @@
     <header>
         <h1>CV</h1>
     </header>
-    <img class="profile-image" src="numankavurmaci.jpg" alt="Profile Image">
+    <div class="profile-image-container">
+        <img class="profile-image" src="numankavurmaci.jpg" alt="Profile Image">
+    </div>
     <main>
         <section>
             <h2>Software Development</h2>
@@ -40,41 +48,50 @@
                 <li>I have gained practical experience through three different internships, focusing on structural inspections and working on reinforced concrete construction sites.</li>
             </ul>
         </section>
-        <ul>
+        <section>
             <h2>Deneyim</h2>
             <ul>
-                <li>Hadi İnan İmar İnşaat Mühendislik Mimarlık</li>
-                <li>Civil Engineer</li>
-                <li>Ağustos 2020 - Eylül 2020 (2 ay)</li>
-                <li>Samsun, Türkiye</li>
-                <li>Betonarme Yapı Şantiyesi</li>
+                <li>
+                    <h3>Hadi İnan İmar İnşaat Mühendislik Mimarlık</h3>
+                    <p>
+                        <strong>Civil Engineer</strong><br>
+                        Ağustos 2020 - Eylül 2020 (2 ay)<br>
+                        Samsun, Türkiye<br>
+                        Betonarme Yapı Şantiyesi
+                    </p>
+                </li>
+                <li>
+                    <h3>Kale Yapı Denetim</h3>
+                    <p>
+                        <strong>Civil Engineer</strong><br>
+                        Temmuz 2020 - Ağustos 2020 (2 ay)<br>
+                        Samsun, Türkiye<br>
+                        Samsun ve çevre ilçelerdeki yapıların denetimi
+                    </p>
+                </li>
+                <li>
+                    <h3>Güngör Mühendislik</h3>
+                    <p>
+                        <strong>Civil Engineer</strong><br>
+                        Haziran 2019 - Temmuz 2019 (2 ay)<br>
+                        Samsun, Türkiye<br>
+                        Betonarme Hastane şantiyesi
+                    </p>
+                </li>
             </ul>
+        </section>
+        <section>
+            <h2>Eğitim</h2>
             <ul>
-                <li>Kale Yapı Denetim</li>
-                <li>Civil Engineer</li>
-                <li>Temmuz 2020 - Ağustos 2020 (2 ay)</li>
-                <li>Samsun, Türkiye</li>
-                <li>Samsun ve çevre ilçelerdeki yapıların denetimi</li>
+                <li>
+                    <h3>Karabuk University</h3>
+                    <p>
+                        Lisans Derecesi, İnşaat Mühendisliği · (2017 - Temmuz 2022)
+                    </p>
+                </li>
             </ul>
-            <ul>
-                <li>Güngör Mühendislik</li>
-                <li>Civil Engineer</li>
-                <li>Haziran 2019 - Temmuz 2019 (2 ay)</li>
-                <li>Samsun, Türkiye</li>
-                <li>Betonarme Hastane şantiyesi</li>
-            </ul>
-        </ul>
-    </section>
-    <section>
-        <h2>Eğitim</h2>
-        <ul>
-            <li>Karabuk University</li>
-            <li>Lisans Derecesi, İnşaat Mühendisliği · (2017 - Temmuz 2022)</li>
-        </ul>
-    </section>
-
+        </section>
     </main>
-
     <script src="script.js"></script>
 </body>
 </html>
