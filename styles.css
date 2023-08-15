@@ -3,7 +3,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f9fa;
+  background-image: url("https://e0.pxfuel.com/wallpapers/475/184/desktop-wallpaper-portfolio-background-portfolio-background-portfolio-and-career-portfolio.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -27,7 +29,7 @@ ul {
 }
 
 a {
-  color: #4285F4;
+  color: #4285f4;
   text-decoration: none;
 }
 
@@ -61,7 +63,7 @@ header nav ul li {
 
 /* Ribbon Styles */
 .ribbon {
-  background-color: #4285F4;
+  background-color: #4285f4;
   color: #fff !important;
   padding: 5px 10px;
   margin-bottom: 20px;
@@ -144,3 +146,24 @@ section {
 .section-heading {
   text-align: center;
 }
+tr {
+    color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: bold; /* Adjust font weight */
+  }
+  
+  td {
+    color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-weight: normal; /* Adjust font weight */
+    font-size: 14px; /* Adjust font size for better readability */
+  }
+  Feel free to adjust the font-weight and font-size values according to your preference for better readability. Place this CSS code in your external stylesheet (styles.css) or within a <style> block in the <head> section of your HTML file.
+  
+  
+  
+  
+  
+  
+  
