@@ -6,8 +6,8 @@ body {
   background-image: url("https://e0.pxfuel.com/wallpapers/475/184/desktop-wallpaper-portfolio-background-portfolio-background-portfolio-and-career-portfolio.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  color: white; /* Set text color to white */
 }
-
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -126,7 +126,10 @@ footer p {
 .about-page {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 
 body.about-page {
@@ -144,26 +147,54 @@ section {
   text-align: left;
 }
 .section-heading {
-  text-align: center;
+  background-color: transparent; /* Adjust the background color as needed */
+  color: #fff; /* Set text color to white */
+  padding: 10px 0; /* Add padding to the section heading */
+  margin-top: 20px; /* Add some space between sections */
+  text-align: center; /* Center-align the section heading */
+  font-size: 24px; /* Increase font size */
+  font-weight: bold; /* Set font weight to bold */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow */
 }
 tr {
-    color: white;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    font-weight: bold; /* Adjust font weight */
-  }
-  
-  td {
-    color: white;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    font-weight: normal; /* Adjust font weight */
-    font-size: 14px; /* Adjust font size for better readability */
-  }
-  Feel free to adjust the font-weight and font-size values according to your preference for better readability. Place this CSS code in your external stylesheet (styles.css) or within a <style> block in the <head> section of your HTML file.
-  
-  
-  
-  
-  
-  
-  
+  color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: bold; /* Set font weight to bold */
+}
+
+td {
+  color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  font-weight: normal;
+  font-size: 14px;
+}
+h3 {
+  color: white; /* Set text color to white */
+  font-weight: bold; /* Set font weight to bold */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow */
+}
+.logo-img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Apply circular border radius */
+  border: 2px solid white; /* Add a white border around the logo */
+  margin-right: 20px; /* Add some spacing between the logo and navigation */
+}
+.experience-item {
+  background-color: transparent; /* Adjust the background color as needed */
+  padding: 20px; /* Add padding to the section */
+  border-radius: 10px; /* Add rounded corners */
+  margin-bottom: 20px; /* Add space between sections */
+}
+.click-button {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
